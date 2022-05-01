@@ -48,6 +48,14 @@
 	.sticky-search-bar .nav-link.dropdown-toggle img {height: 100%}
 	.market-place-slider .market-slide .text {font-size: 16px; line-height: 24px}
 	.market-place-slider .slick-slide img {height: 60px}
+	.parts-rows .accordion-item {font-size: 14px}
+	.parts-rows .accordion-item .accordion-header img {height: 18px}
+	.parts-upload .contact-assistance {font-size: 16px}
+	.parts-upload .parts-upload-btn {
+		font-size: 16px;
+    	padding: 10px 24px;
+	}
+	.parts-upload-area .parts-title {font-size: 32px}
 }
 
 /* 1399 PX */
@@ -233,6 +241,32 @@
 	    font-size: 12px;
 	    margin-bottom: 4px;
 	}
+	.account-user-parts .btn {
+	    padding: 10px 18px;
+	    font-size: 14px;
+	}
+	.account-user-parts .add-parts .upload-btn img {height: 40px}
+	.account-user-parts .add-parts .input-group-text img {height: 20px}
+	.account-user-parts .add-parts input {padding: 5px 0; font-size: 14px}
+	.account-user-parts .add-parts input::placeholder {font-size: 14px}
+	.account-header .section-title {font-size: 27px}
+	.account-user-tabs a {
+	    padding: 8px 18px;
+	    font-size: 14px;
+	}
+	.empty-classification img {height: 250px}
+	.parts-upload-area .parts-title {
+	    font-size: 24px;
+	    line-height: 40px;
+	}
+	.drag-drop-header .parts-subtitle {line-height: 34px}
+	.parts-title {font-size: 27px}
+	.drag-drop-fields .ui-state-default {
+	    font-size: 14px;
+	    padding: 8px 20px;
+	}
+	.drag-drop-fields .droptrue {padding: 15px}
+	.add-parts a img {height: 32px}
 }
 
 /* 1199 PX */
@@ -264,6 +298,37 @@
 	.section-top-right {height: 120px}
 	.section-top-left {height: 60px}
 	.section-bottom-left {height: 200px}
+	.account-user-parts.classification-area .accordion-item .accordion-header .col-md-2:first-child {width: 38%}
+	.account-user-parts.classification-area .accordion-item .accordion-header .col-md-3:nth-child(2) {width: 40%}
+	.account-user-parts.classification-area .accordion-item .accordion-header .col-md-3:nth-child(3) {width: 38%}
+	.account-user-parts.classification-area .accordion-item .accordion-header .col-md-2:nth-child(4) {width: 40%}
+	.account-user-parts.classification-area .accordion-item .accordion-header .col-md-2:last-child {width: 27%}
+	.account-user-parts.classification-area .accordion-item .accordion-header .col-md-2 .actions {
+		position: relative;
+		top: -20px;
+	}
+	.parts-rows .accordion-item .accordion-header .accordion-button {top: 40px}
+	.parts-rows .accordion-item .accordion-body {padding: 15px}
+	.number-of-results {font-size: 14px}
+	.questions table {font-size: 14px}
+	.empty-classification img {height: 200px}
+	.parts-upload-area .dropzone {font-size: 14px; margin-top: 10px}
+	.parts-upload-area {
+	    padding: 20px 30px;
+	}
+	.parts-upload-area {box-shadow: 0 4px 14px rgb(138 138 138 / 20%)}
+	.part-upload-btns {margin-top: 20px !important}
+	.parts-title {font-size: 24px}
+	.parts-header .nav-pills .nav-link {
+	    font-size: 14px;
+	    padding: 7px 20px;
+	}
+	.parts-header .nav-pills .nav-link img {height: 16px}
+	.drag-drop-fields .parts-title {font-size: 20px}
+	.completion-results .alert {
+	    padding: 15px !important;
+	    font-size: 14px;
+	}
 }
 
 /* 991 PX */
@@ -383,6 +448,34 @@
 	.pricing .btn {font-size: 12px}
 	.pricing-title br {display: none}
 	.pricing-footer .flexible-card {padding: 15px}
+	.account-user-parts.classification-area .accordion-item .accordion-header .col-md-2 .actions {
+	    line-height: 2.5;
+	    margin-top: -42px;
+	    top: 0;
+	}
+	.questions table {font-size: 12px}
+	.empty-classification img {height: 150px}
+	.parts-upload .contact-assistance {font-size: 14px}
+	.parts-upload .parts-upload-btn {font-size: 14px}
+	.parts-upload-area {padding: 20px}
+	.parts-upload-area .parts-title {font-size: 20px}
+	.parts-header .nav-pills .nav-link {
+	    font-size: 12px;
+	    padding: 6px 10px 6px 14px;
+	}
+	.drag-drop-fields .parts-title {font-size: 18px}
+	.drag-drop-header .parts-subtitle {
+	    line-height: 27px;
+	    font-size: 12px;
+	}
+	.drag-drop-fields .ui-state-default {margin-right: 0;font-size: 12px}
+	.mapped-table thead th {
+	    padding-top: 12px;
+	    padding-bottom: 12px;
+	    font-size: 14px;
+	}
+	.completion-results .alert {line-height: 20px}
+	.completion-results .row {--bs-gutter-x: 10px}
 }
 
 /* 767 PX */
@@ -513,6 +606,64 @@
 	.section-left,
 	.section-dots,
 	.section-waves {display: none}
+	.account-header .section-title {
+		text-align: center;
+		font-size: 24px;
+		margin-bottom: 10px;
+	}
+	.account-header {padding: 40px 0}
+	.account-user-parts .add-parts .btn {margin-bottom: 20px}
+	.account-user-parts .add-parts .input-group {width: 100% !important}
+	.account-user-parts.classification-area .accordion-item .accordion-header .col-md-2 {width: 93% !important}
+	.account-user-parts.classification-area .accordion-item .accordion-header .col-md-3 {width: 93% !important}
+	.parts-rows .accordion-item .accordion-header img {height: 22px}
+	.parts-rows .accordion-item .accordion-header {padding: 50px 15px 0}
+	.account-user-parts.classification-area .accordion-item .accordion-header .col-md-2:nth-child(5) {
+		position: absolute;
+	    top: 6px;
+	    left: 0;
+	    width: 88% !important;
+	}
+	.account-user-parts.classification-area .accordion-item .accordion-header .col-md-2:nth-child(5) .actions {margin-top: 0}
+	.parts-rows .accordion-item .accordion-header .accordion-button {
+	    top: 12px;
+	    right: 15px;
+	}
+	.parts-rows .accordion-body .questions a {display: flex; font-size: 12px; line-height: 20px}
+	.parts-rows .accordion-body .questions a.edit {justify-content: end}
+	.parts-rows .accordion-body .questions a img {height: 40px}
+	.parts-rows .accordion-body .questions a.edit span {
+		position: relative;
+		top: 10px;
+	}
+	.parts-title {
+	    font-size: 20px;
+	    text-align: center;
+	    margin-bottom: 10px;
+	}
+	.parts-header {padding: 40px 0}
+	.parts-header .nav-pills .nav-link img {
+	    height: 14px;
+	    margin-right: 4px;
+	}
+	.parts-header .nav-pills .nav-link.active::after {
+	    right: -31px;
+	    top: 38%;
+	    border-left: 21px solid transparent;
+	    border-right: 21px solid transparent;
+	}
+	.drag-drop-fields {--bs-gutter-x: 10px}
+	.drag-drop-fields .droptrue {padding: 10px !important}
+	.drag-drop-fields .ui-state-default {display: block}
+	#sortable2 {min-height: 92%}
+	.drag-drop-fields {margin-bottom: 100px}
+	.drag-drop-header .parts-subtitle {font-size: 10px;line-height: 20px;margin-top: -12px}
+	.drag-drop-fields .parts-title {margin-bottom: 10px !important; font-size: 14px}
+	.mapped-review .add-parts .col-md-6:first-child {text-align: right}
+	.mapped-review .add-parts .col-md-6 .input-group {margin-top: 10px}
+	.mapped-table thead th {font-size: 12px}
+	.completion-results .parts-title {margin-bottom: 0}
+	.completion-results .alert {margin-top: 6px !important}
 }
 
 /* 575 PX */
@@ -552,6 +703,24 @@
 		text-align: center !important;
 	    margin-top: 10px;
 	}
+	.parts-form-submission .col-12 {padding: 0}
+	.parts-rows label {font-size: 12px; line-height: 14px}
+	.parts-rows .form-control {font-size: 12px; padding: 10px;}
+	.parts-rows .form-control:focus~label, .parts-rows .form-control:valid~label {
+	    left: -8px;
+	    top: 10px;
+	} 
+	.parts-rows .form-control.tagify {padding-top: 0; padding-bottom: 0}
+	.account-user-parts .add-parts .input-group-text {border-radius: 6px}
+	.hero-search input {padding-right: 80px}
+	.parts-upload .contact-assistance {
+	    margin-bottom: 10px;
+	    display: block;
+	}
+	.parts-upload-area .parts-title {font-size: 18px; margin-bottom: 0}
+	.parts-upload-area {box-shadow: 0 4px 10px rgb(138 138 138 / 30%)}
+	.btn {border-radius: 6px}
+	.completion-results .alert {border-radius: 6px}
 }
 
 /* 499 PX */
@@ -579,4 +748,87 @@
 	.story .braap-faded {height: 140px}
 	.pricing-title {width: 80%}
 	.pricing-card {padding: 15px}
+	.parts-rows .accordion-item .accordion-body {padding: 10px}
+	.parts-rows .accordion-item .accordion-body .questions {display: block}
+	.parts-rows .accordion-item .accordion-body form.mt-4 {margin-top: 0 !important}
+	.parts-rows .accordion-body .questions a span {
+		position: relative;
+		top: 10px;
+	}
+	.parts-rows .long-label-field label {width: 75%; top: 0 !important}
+	.parts-rows .accordion-item .accordion-header img {height: 18px}
+	.classification-area .part-name img {height: 24px !important}
+	.parts-rows .accordion-item .accordion-header {padding: 45px 10px 0}
+	.parts-rows .accordion-item .accordion-header .accordion-button {right: 10px}
+	.account-user-parts .add-parts .upload-btn img {height: 33px}
+	.account-user-parts .add-parts .input-group-text img {height: 16px}
+	.account-user-parts .add-parts .input-group-text {padding: 6px}
+	.account-user-parts .add-parts input,
+	.account-user-parts .add-parts input::placeholder {font-size: 12px}
+	.account-header .section-title {font-size: 20px}
+	.account-user-tabs a {
+	    padding: 4px 6px;
+	    font-size: 12px;
+	}
+	.account-user-tabs a:first-child {
+	    border-top-left-radius: 6px;
+	    border-bottom-left-radius: 6px;
+	}
+	.account-user-tabs a:last-child {
+	    border-top-right-radius: 6px;
+	    border-bottom-right-radius: 6px;
+	}
+	.mob-sidemenu-links a {
+	    margin-bottom: 10px;
+	    font-size: 14px;
+	}
+	.mob-sidemenu-content {padding: 40px 20px}
+	.part-upload-btns .btn {
+		font-size: 12px;
+	    padding: 8px 20px !important;
+	    line-height: 2;
+	}
+	.parts-upload-area {padding: 15px}
+	.part-upload-btns .btn img {height: 12px}
+	.parts-upload-area img {height: 60px}
+	.parts-upload-area .parts-title {line-height: 24px; margin-bottom: 6px}
+	.dropzone {padding: 10px}
+	.parts-upload .parts-upload-btn, .parts-upload .contact-assistance {font-size: 12px}
+	.drag-drop-fields .ui-state-default {
+	    padding: 6px 10px;
+	    margin-bottom: 6px;
+	}
+	.drag-drop-fields .parts-title {font-size: 12px}
+	.drag-drop-fields .droptrue {padding: 6px !important}
+	.drag-drop-fields {margin-top: 20px}
+	.drag-drop-header .parts-subtitle {line-height: 16px}
+	.drag-drop-fields .btn.mx-auto.d-inline-block.mt-3 {
+		font-size: 12px;
+		padding: 8px 20px;
+	}
+	.drag-drop-fields .btn.mx-auto.d-inline-block.mt-3 img {height: 12px}
+	.completion-results .alert {
+	    padding: 12px !important;
+	    font-size: 12px;
+	}
+	.completion-results .btn {
+		font-size: 12px;
+		padding: 6px 10px;
+	}
+	.completion-results .btn img {height: 12px}
+}
+
+/* 390 PX */
+@media (max-width: 390px) {
+	.parts-rows .long-label-field label {width: 100%}
+	.part-upload-btns .btn {padding: 6px 10px !important}
+	.part-upload-btns .btn {font-size: 11px}
+	.parts-header .nav-pills .nav-link {
+	    font-size: 10px;
+	    padding: 6px 6px 6px 11px;
+	}
+	.parts-header .col-md-7 {padding: 0}
+	.completion-results .btn {
+		padding: 6px;
+	}
 }
